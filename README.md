@@ -29,6 +29,7 @@ This was done by Michael Beukman, Matthew Kruger, Guy Axelrod, Manuel Fokam, Muh
 
 To run any file in this project, you must start from the root directory and run `./run.sh path/to/file`. **Do not use `python` directly**.
 
+[Here](https://youtu.be/tbMJu5W9efY) is a short video explaining our approach.
 
 ## Code Structure.
 See the [PCGNN Repo](https://github.com/michael-Beukman/pcgnn) for more detailed information. That codebase was used as the base for this project, and some files may not strictly be necessary.
