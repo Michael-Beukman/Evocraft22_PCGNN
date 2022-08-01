@@ -18,7 +18,7 @@ client.fillCube(FillCubeRequest(
 ))
 def clear_all(min=-1000, max = 1000):
     X = min
-    L = 100
+    L = 1000
     while X < max:
         Z = min
         while Z < max:
@@ -47,7 +47,7 @@ for i, j, k in tqdm.tqdm(COORDS):
     blocks_list.append(
     Block(position=Point(x=X_START + i - 5, y=5 + j, z=k - 5), type=int(arr[i, j, k]), orientation=NORTH),
     )
-    if len(blocks_list) >= 100:
+    if len(blocks_list) >= 10000:
         client.spawnBlocks(Blocks(blocks=blocks_list))
         blocks_list = []
 client.spawnBlocks(Blocks(blocks=blocks_list))
