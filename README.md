@@ -22,7 +22,11 @@
   <img src='images/minecraft_2.gif'/>
 </p>
 
+
+
 ## About
+See [here](https://github.com/Michael-Beukman/MCHAMR) for the more general code and the accompanying [paper](https://arxiv.org/abs/2302.01561).
+
 This is the repository for our submission to the [Minecraft Open-Endedness Challenge](https://evocraft.life/). We leverage [PCGNN](https://github.com/michael-Beukman/pcgnn) to create different artifacts in minecraft, and finally compose them together.
 
 This was done by Michael Beukman, Matthew Kruger, Guy Axelrod, Manuel Fokam, Muhammad Nasir and was the runner up in the 2022 competition.
